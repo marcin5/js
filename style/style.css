@@ -1,0 +1,60 @@
+body{
+  margin: 0px;
+}
+
+td {
+border: 1px solid black;
+height: 50px;
+width: 50px;
+font-size: 30px;
+text-align: center;
+font-family: serif;
+}
+
+.w3-container{
+  text-align: center;
+}
+
+p{
+  float: left;
+}
+
+#x{
+  color: red;
+  margin-right: 20px;
+}
+#o{
+  color: green;
+  margin-right: 20px;
+}
+
+#t{
+  margin-right: 20px;
+}
+
+h1{
+    color: #f3f3f3;
+    text-align: center;
+    margin: 10px;
+}
+
+#main{
+    padding-top: 40px;
+    height: 1000px;
+    text-align: center;
+    width: 100%;
+    background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+}
+
+button {
+    background: rgba(73,155,234,1);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}

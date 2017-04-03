@@ -1,0 +1,49 @@
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+    <script src="script/game.js"></script>
+    <script src="script/winner-checker.js"></script>
+    <script src="script/clearBoard.js"></script>
+    <script src="script/history.js"></script>
+</head>
+
+<body>
+    <div id="main">
+        <h1>Tic Tac Toe</h1>
+
+        <div class="">
+            <button onclick="newGame()">New game</button>
+            <button id="switchBtn" onclick="switchPlayer()">Switch turn</button>
+        </div>
+
+        <div class="">
+            <span id="x">X wins: <span id="xSpan"></span></span>
+            <span id="t">Tied games: <span id="tiedSpan"></span></span>
+            <span id="o">O wins:<span id="oSpan"></span> </span>
+        </div>
+        <h3 id="msg">message</h3>
+
+        <center>
+            <table id="table">
+                <tr>
+                    <td onclick="draw(this)"></td>
+                    <td onclick="draw(this)"></td>
+                    <td onclick="draw(this)"></td>
+                </tr>
+                <tr>
+                    <td onclick="draw(this)"></td>
+                    <td onclick="draw(this)"></td>
+                    <td onclick="draw(this)"></td>
+                </tr>
+                <tr>
+                    <td onclick="draw(this)"></td>
+                    <td onclick="draw(this)"></td>
+                    <td onclick="draw(this)"></td>
+                </tr>
+            </table>
+        </center>
+    </div>
+</body>
+
+</html>
