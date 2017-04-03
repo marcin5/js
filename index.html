@@ -6,6 +6,7 @@
     <script src="script/winner-checker.js"></script>
     <script src="script/clearBoard.js"></script>
     <script src="script/history.js"></script>
+    <script src="script/message.js"></script>
 </head>
 
 <body>
@@ -13,8 +14,8 @@
         <h1>Tic Tac Toe</h1>
 
         <div class="">
-            <button onclick="newGame()">New game</button>
-            <button id="switchBtn" onclick="switchPlayer()">Switch turn</button>
+            <button onclick="game.newGame()">New game</button>
+            <button id="switchBtn" onclick="player.switchPlayer()">Switch turn</button>
         </div>
 
         <div class="">
@@ -27,19 +28,19 @@
         <center>
             <table id="table">
                 <tr>
-                    <td onclick="draw(this)"></td>
-                    <td onclick="draw(this)"></td>
-                    <td onclick="draw(this)"></td>
+                    <td onclick="myDraw.draw(this)"></td>
+                    <td onclick="myDraw.draw(this)"></td>
+                    <td onclick="myDraw.draw(this)"></td>
                 </tr>
                 <tr>
-                    <td onclick="draw(this)"></td>
-                    <td onclick="draw(this)"></td>
-                    <td onclick="draw(this)"></td>
+                    <td onclick="myDraw.draw(this)"></td>
+                    <td onclick="myDraw.draw(this)"></td>
+                    <td onclick="myDraw.draw(this)"></td>
                 </tr>
                 <tr>
-                    <td onclick="draw(this)"></td>
-                    <td onclick="draw(this)"></td>
-                    <td onclick="draw(this)"></td>
+                    <td onclick="myDraw.draw(this)"></td>
+                    <td onclick="myDraw.draw(this)"></td>
+                    <td onclick="myDraw.draw(this)"></td>
                 </tr>
             </table>
         </center>
